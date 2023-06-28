@@ -1,5 +1,6 @@
-# cdk support ops discssion
+# cdk so discssion
 
+## Topic: Using Cdk to deploy ECS
 L1 Construct: 
 
 - class [CfnCluster](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_ecs.CfnCluster.html)
