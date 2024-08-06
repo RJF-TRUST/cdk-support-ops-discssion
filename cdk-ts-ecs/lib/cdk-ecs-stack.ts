@@ -54,7 +54,6 @@ export class ecsStack extends cdk.Stack {
         machineImage: ecs.EcsOptimizedImage.amazonLinux2(),
         spotPrice: "0.0136",
         spotInstanceDraining: true,
-        keyName: "aws-ec2-737719307477-us-east-1-kp",
       }
     );
     autoScalingGroup.addSecurityGroup(SecurityGroup)
